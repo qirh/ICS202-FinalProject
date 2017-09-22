@@ -1,0 +1,40 @@
+Each '*' indicates a new line or command.
+
+Program will exit if a directory has more than MAX children.
+
+If files/folders are modified outside of program environment, please press reset before attempting any operations to avoid any errors.
+
+Method Summary:
+
+Insert, will insert a directory and will fail if:
+		1- parent or child do not exist.
+		2- child is not related to parent.
+		
+Insert - No Restriction, will insert a directory and will fail if:
+		1- if the path is not descendant of root.
+		
+Insert File, this will create a new file with a new string.
+			if the file exists it will append it with the new information.
+
+Delete, will fail if:
+		1- trying to delete a directory that is not empty.
+
+Delete - Recursively, will fail if:
+		1- if the path is not descendant of root.
+		
+Search by Path, returns true if path exists, will fail if:
+		1- Path does not exist.
+		
+Search by Name, returns the path if it exists, returns false otherwise.
+
+Sort, sorts the tree (each level independently) according to ascending alphabetical order.
+
+Sort - Flipped, sorts the tree (each level independently) according to descending alphabetical order.
+
+Print, will display the tree, '>' indicates a new level, while '#' will indicate the end of a level.
+
+Count, will display the root directory path and the number of files and folders in it (Including the root).
+
+Reset, will reset the program to the original directory.
+
+Set, set a new directory to manage.

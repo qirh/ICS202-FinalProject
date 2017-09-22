@@ -1,0 +1,7 @@
+ICS 202 Final Project:
+
+The program's main functionality is to manage a windows directory, by searching, inserting and deleting files/folders.
+
+made by:
+	Saleh Alghusson-201040340
+	Faisal Alsalman-201049260
